@@ -53,6 +53,6 @@ AddButton(Tab2o, {
 			script_key="pdysxocxiPgTifGZXzcKYEHhpZenzhxr";
 loadstring(game:HttpGet("
 https://api.luarmor.net/files/v4/loaders/2401c37b94195677018fb18f72dec3fe.lua"))()
-				end
-			})
+end
+})
 				
