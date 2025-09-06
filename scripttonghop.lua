@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube: linhmaxmu"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "Key System",
         Description = "hello",
         KeyLink = "https://direct-link.net/1393451/7F9HxjPwPR56/get_key?for=-AEkCrvrYBzna",
@@ -31,14 +31,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Ink Game"})
+     local Tab2o = MakeTab({Name = "ink game"})
+     local Tab3o = MakeTab({Name = "others script")}
      
 ------- BUTTON
     
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
  AddButton(Tab1o, {
@@ -47,12 +53,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
 end
 })
-AddButton(Tab2o, {
-		Name = "AX script"
-		Callback = function()
-			script_key="pdysxocxiPgTifGZXzcKYEHhpZenzhxr";
-loadstring(game:HttpGet("
-https://api.luarmor.net/files/v4/loaders/2401c37b94195677018fb18f72dec3fe.lua"))()
+ AddButton(Tab2o, {
+     Name = "AX SCRIPT(not work)",
+    Callback = function()
+script_key"pdysxocxiPgTifGZXzcKYEHhpZenzhxr";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2401c37b94195677018fb18f72dec3fe.lua"))()
 end
 })
-				
+ AddButton(Tab2o, {
+     Name = "infinite yeid",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end
+})
