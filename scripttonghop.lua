@@ -38,6 +38,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "Redz Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+  end
   })
  AddButton(Tab1o, {
      Name = "Ez Hub",
