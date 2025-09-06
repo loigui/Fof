@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Ink Game"})
      
 ------- BUTTON
     
@@ -46,3 +47,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
 end
 })
+AddButton(Tab2o, {
+		Name = "AX script"
+		Callback = function()
+			script_key="pdysxocxiPgTifGZXzcKYEHhpZenzhxr";
+loadstring(game:HttpGet("
+https://api.luarmor.net/files/v4/loaders/2401c37b94195677018fb18f72dec3fe.lua"))()
+				end
+			})
+				
