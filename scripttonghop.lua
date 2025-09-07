@@ -66,3 +66,10 @@ end
  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end
 })
+ AddButton(Tab1o, {
+     Name = "Zis Roblox",
+    Callback = function()
+ getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisXtVn"))()
+end
+})
