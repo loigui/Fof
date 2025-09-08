@@ -25,7 +25,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
-       Stroke = false,
+       Stroke = true,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "ink game"})
      local Tab3o = MakeTab({Name = "others script"})
+     local Tab4o = MakeTab({Name = "grow a garden"})
      
 ------- BUTTON
     
@@ -71,5 +72,17 @@ end
     Callback = function()
  getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisXtVn"))()
+end
+})
+AddButton(Tab4o, {
+    Name = "zeyume",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysumee"))()
+end
+})
+ AddButton(Tab4o, {
+     Name = "speed hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
 end
 })
