@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=137557510940483",
+       Image = "http://www.roblox.com/asset/?id=87563350904569",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "ink game"})
      local Tab3o = MakeTab({Name = "others script"})
      local Tab4o = MakeTab({Name = "grow a garden"})
+     local Tab5o = MakeTab({Name = "forsaken "})
      
 ------- BUTTON
     
@@ -81,8 +82,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/r
 end
 })
  AddButton(Tab4o, {
-     Name = "speed hub",
+     Name = "speed hub"
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
 end
 })
+AddButton(Tab5o, {
+     Name = "speed hub"
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Forsaken-c00lgui-v15-ESP-EDITABLE-STAMINA-41624"))()
+end
+})     
