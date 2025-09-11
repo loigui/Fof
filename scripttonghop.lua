@@ -82,13 +82,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/r
 end
 })
  AddButton(Tab4o, {
-     Name = "speed hub"
+     Name = "speed hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
 end
 })
 AddButton(Tab5o, {
-     Name = "speed hub"
+     Name = "c00lgui",
     Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Forsaken-c00lgui-v15-ESP-EDITABLE-STAMINA-41624"))()
 end
