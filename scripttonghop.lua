@@ -39,14 +39,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "Redz Hub[Beta]",
     Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
+			local Settings = {
+
+JoinTeam = "Pirates"; -- Pirates/Marines
+
+Translator = true; -- true/false
+
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+getgenv().BETA_VERSION = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
   end
   })
  AddButton(Tab1o, {
@@ -104,6 +109,8 @@ end
 AddButton(Tab5o, {
      Name = "hutao hub",
     Callback = function()
+			-- https://scriptblox.com/script/NOLI-Forsaken-Hutao-Hub-48259
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdksakst-ship-it/Hutao-Hub-Omega-X/refs/heads/main/Forsaken-V4-Fix.txt"))()
 end
 	})
