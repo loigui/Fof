@@ -30,7 +30,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Blox fruit"})
      local Tab2o = MakeTab({Name = "ink game"})
      local Tab3o = MakeTab({Name = "others script"})
      local Tab4o = MakeTab({Name = "grow a garden"})
