@@ -57,7 +57,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/h
  AddButton(Tab1o, {
      Name = "Ez Hub",
     Callback = function()
-script_key = "MqjRxnXgDjThRYzGOevbapnoWiNOOvTP"; -- A key might be required, if not, delete this line.
+ -- A key might be required, if not, delete this line.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
 end
 })
