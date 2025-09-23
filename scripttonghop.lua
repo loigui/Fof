@@ -39,7 +39,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub[Beta]",
+     Name = "Redz Hub[Beta][no key]",
     Callback = function()
 			local Settings = {
 
@@ -55,7 +55,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/h
   end
   })
  AddButton(Tab1o, {
-     Name = "Ez Hub",
+     Name = "Ez Hub[get key]",
     Callback = function()
  -- A key might be required, if not, delete this line.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
@@ -75,7 +75,7 @@ end
 end
 })
  AddButton(Tab1o, {
-     Name = "Zis Roblox",
+     Name = "Zis Roblox[no key]",
     Callback = function()
  getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisXtVn"))()
@@ -115,3 +115,4 @@ AddButton(Tab5o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdksakst-ship-it/Hutao-Hub-Omega-X/refs/heads/main/Forsaken-V4-Fix.txt"))()
 end
 	})
+	
