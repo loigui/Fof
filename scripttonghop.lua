@@ -115,4 +115,9 @@ AddButton(Tab5o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdksakst-ship-it/Hutao-Hub-Omega-X/refs/heads/main/Forsaken-V4-Fix.txt"))()
 end
 	})
-	
+AddButton(Tab5o, {
+     Name = "zee hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub"))()
+    end
+    })
