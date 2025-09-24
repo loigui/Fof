@@ -35,7 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "others script"})
      local Tab4o = MakeTab({Name = "grow a garden"})
      local Tab5o = MakeTab({Name = "forsaken "})
-     
+     local Tab6o = MakeTab({Name = "steal a brainrot"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -119,5 +119,20 @@ AddButton(Tab1o, {
      Name = "zee hub",
     Callback = function()
     loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub"))()
+    end
+    })
+    AddButton(Tab3o, {
+     Name = "cmds",
+    Callback = function()
+    --⚠️ credit to owner ⚠️
+--QuirkyCMD 🤓:
+
+loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+end
+})
+AddButton(Tab6o, {
+     Name = "idk :(",
+    Callback = function()
+    loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
     end
     })
