@@ -64,7 +64,7 @@ end
  AddButton(Tab2o, {
      Name = "AX SCRIPT(not work)",
     Callback = function()
-script_key"pdysxocxiPgTifGZXzcKYEHhpZenzhxr";
+script_key="qXJRVFBejqNOAgmbOsjCgxblvEzsLdDh";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2401c37b94195677018fb18f72dec3fe.lua"))()
 end
 })
