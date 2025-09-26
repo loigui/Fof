@@ -136,3 +136,9 @@ AddButton(Tab6o, {
     loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
     end
     })
+AddButton(Tab3o, {
+     Name = "99 nights...",
+    Callback = function()
+loadstring(game:HttpGet("https://nazuro.xyz/99nights"))()
+end
+})
