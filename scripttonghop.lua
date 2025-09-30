@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube: linhmaxmu"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "hello",
         KeyLink = "https://discord.gg/pXmFDx3yus",
