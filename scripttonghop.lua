@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "hello",
         KeyLink = "https://discord.gg/pXmFDx3yus",
-        Keys = {"KEY_INMINFFHQERV65421"},
+        Keys = {"KEY_Maild"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
