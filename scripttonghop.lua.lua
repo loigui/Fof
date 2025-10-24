@@ -113,7 +113,7 @@ AddButton(Tab5o, {
      Name = "hutao hub",
     Callback = function()
 			-- https://scriptblox.com/script/NOLI-Forsaken-Hutao-Hub-48259
-loadstring(game:HttpGet("https://github.com/loigui/Forsaken-script-V2/blob/main/Forsaken-V4-Fix.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/loigui/Forsaken-script-V2/refs/heads/main/Forsaken-V4-Fix.lua"))()
 end
 	})
 AddButton(Tab1o, {
